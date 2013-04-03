@@ -16,7 +16,7 @@
  stateX	{   handler1,   NULL,       NULL},
  stateY	{   handler2,   handler3,   NULL}
  };
- This maximizes the handling time of a particular {event, state} sequence, since 
+ This minimizes the handling time of a particular {event, state} sequence, since 
  accessing an element of this table is simply a matter of table[event][state].
  - or a table that describes the state machine as a list of event/state/handler:
  {STATE_X, EVENT1, handler_1},
